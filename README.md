@@ -1,21 +1,17 @@
-# Bai1
+# Nhóm_10_DTMT01
 
-Cài đặt phần mềm, công cụ lập trình cho STM32F1
+Cài đặt phần mềm, công cụ lập trình cho STM32F1 và Blinking LED
 
-## Yêu cầu
+## Bài tập LED + Nút nhấn
 
-Cài đặt và cấu hình thành công môi trường phát triển trên Windows (KeilC) hoặc Linux (ARM-GCC)
+### Mô tả
 
-## Nội dung đã thực hiện
+- **Tiến trình 1**: 2 LED cấu hình ở chế độ Output, nhấp nháy với chu kỳ 1000ms.  
+- **Tiến trình 2**: 1 LED (Output) + 1 nút nhấn (Input). LED đổi trạng thái mỗi lần người dùng nhấn nút.  
 
-1. Đã cài đặt môi trường lập trình:
-   - Keil C  
-   - GCC ARM (nếu dùng VSCode hoặc Makefile)
-2. Tạo project mới, viết chương trình `main()` tối giản.  
-3. Build project thành công, không lỗi.  
-4. Nạp chương trình vào KIT STM32F1 và kiểm tra chạy đúng.  
+### Phần cứng
 
-## Kết quả
-
-- Công cụ phát triển đã được cài đặt và kiểm thử thành công.  
-- KIT đã sẵn sàng để thực hiện các bài tập LED, nút nhấn và các bài tập nâng cao hơn.  
+- STM32  
+- 3 LED + 3 điện trở hạn dòng (220Ω).  
+- 1 nút nhấn  
+- Dây cắm  
